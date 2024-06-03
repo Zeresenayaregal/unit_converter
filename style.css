@@ -1,0 +1,77 @@
+body {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	box-sizing: border-box;
+	background-color: #1f2937;
+	text-align: center;
+	font-family: sans-serif;
+}
+.heading {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	background-color: #6943ff;
+	align-items: center;
+	font-size: 22px;
+}
+#text-in {
+	width: 137px;
+	height: 83px;
+	text-align: center;
+	border: 4px #b295ff solid;
+	border-radius: 5px;
+	background-color: #6943ff;
+	color: #fff;
+	font-weight: 800;
+	font-size: 72px;
+}
+#text-in:focus {
+	outline: none;
+}
+button {
+	background-color: #fff;
+	box-sizing: content-box;
+	color: #3d3d3d;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	font-weight: 500;
+	font-size: 28px;
+	width: 137px;
+	height: 52px;
+	border: none;
+	border-radius: 4px;
+}
+button:focus {
+	outline: none;
+}
+/* The output section */
+.outSection {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.output {
+	background-color: #273549;
+	width: 500px;
+	height: 108px;
+	margin-top: 10px;
+	overflow: auto;
+}
+.output .phead {
+	color: #ccc1ff;
+	font-size: 27px;
+	max-height: 27px;
+}
+.output .pout {
+	padding: 0;
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 12px;
+	margin-top: -4px;
+}
